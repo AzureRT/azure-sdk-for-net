@@ -10,6 +10,8 @@
   <ItemGroup>
     <Compile Include="Helpers\*.cs" />
     <Compile Include="ScenarioTests\*.cs" />
+    <Compile Include="VMScaleSetTests\*.cs" />
+
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\WinRMCertificate.json">
@@ -88,6 +90,24 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="SessionRecords\Compute.Tests.VMOperationalTests\TestVMOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetOperationalTests\TestVMScaleSetBatchOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetOperationalTests\TestVMScaleSetOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetScenarioTests\TestVMScaleSetScenarioOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetUpdateTests\TestVMScaleSetScalingOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetUpdateTests\TestVMScaleSetUpdateOperations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SessionRecords\Compute.Tests.VMScaleSetVMOperationalTests\TestVMScaleSetVMOperations.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="SessionRecords\Compute.Tests.VMScenarioTests\TestVMScenarioOperations.json">
